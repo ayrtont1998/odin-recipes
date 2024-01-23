@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(246, 247, 248);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-size: 44px;
+    color: rgb(19, 28, 36);
+    text-align: center;
+}
+
+.image {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ingredients, .preparation {
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+ul, ol {
+    font-size: 18px;
+}
+
