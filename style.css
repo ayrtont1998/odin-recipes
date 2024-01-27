@@ -1,29 +1,67 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
+    margin: 0;
 }
 
 .title {
+    background-image: url(images/bandera-uruguay.jpg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: cover;
     text-align: center;
-    color: rgb(88, 167, 167);
-    font-size: 64px;
+    color: rgb(10, 17, 17);
+    font-size: 32px;
     font-weight: bold;
+    width: 1000px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    border-radius: 15px;
+
 }
 
-.recipes .item {
+.recipes {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
     list-style-position: inside;
+    list-style-type: circle;
+    background-color: #eee4e4;
+    border-radius: 15px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
     list-style-type: none;
-    text-align: justify;
-
+    
 }
 
-[href] {
-    color: black;
+.recipes li {
+    color: rgb(177, 177, 54);
+    background-color: inherit;
     font-size: 24px;
-    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+li a {
+    color: inherit;
+}
+
+p {
+    background-color: rgba(59, 113, 214, 0.699);
+    border-radius: 15px;
+    display: flex;
+    margin-right: 40px;
+    padding: 8px;
+    text-align: justify;
+    font-size: 24px;
 }
 
 [src] {
-    width: 400px;
+    width: 350px;
+    margin: 0 16px;
+    border-radius: 15px;
 }
-
